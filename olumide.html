@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+*{
+
+margin: 0;
+
+padding: 0;
+
+font-family: arial;
+
+box-sizing: border-box;
+
+}
+
+body{
+
+height: 100vh;
+
+display: grid;
+
+place-items: center;
+
+
+
+background-size: 100% 100%;
+
+background-repeat: no-repeat;
+
+}
+
+table{
+
+width: 600px;
+
+box-shadow: -1px 12px 12px -6px rgba(0,0,0,0.5);
+
+}
+
+table, td, th{
+
+padding: 20px;
+
+border: 1px solid lightgray;
+
+border-collapse: collapse;
+
+text-align: center;
+
+cursor: pointer;
+
+}
+
+td{
+
+font-size: 18px;
+
+}
+
+th{
+
+background-color: blue;
+
+color: white;
+
+}
+
+
+
+
+
+tr:nth-child(even){
+
+background-color: #ededed;
+
+}
+
+
+
+
+
+</style>
+
+
+
+</head>
+<body>
+    <table>
+
+        <tr>
+
+
+
+            <th>PROJECT NAME</th>
+
+            <th>SIZE</th>
+
+            <th>TYPE</th>
+
+<th>LOCATION</th>
+
+            <th>YEAR</th>
+
+            <th>STATUS</th>
+
+            <th>ROLE</th>
+
+
+
+        </tr>
+
+        <tr>
+
+            <td>Balboa Arms</td>
+            <td>299 Units</td>
+            <td>Multifamily</td>
+            <td>San Diego, CA</td>
+            <td>2010 - 2012</td>
+            <td>Completed</td>
+            <td>GP / GC</td>
+
+
+
+        </tr>
+
+        <tr>
+
+            <td>Davia</td>
+            <td>396 Units</td>
+            <td>Multifamily</td>
+            <td>San Diego, CA</td>
+            <td>2010 - 2014</td>
+            <td>Completed</td>
+            <td>GP / GC</td>
+
+
+
+        </tr>
+
+        <tr>
+
+            <td>Citrus Tree </td>
+            <td>   88 Units</td>
+            <td>Multifamily</td>
+            <td>San Diego, CA</td>
+            <td>2011 - 2013</td>
+            <td>Completed</td>
+            <td>GP / GC</td>
+
+
+        </tr>
+
+        <tr>
+            <td>Distressed Fund 2</td>
+            <td>38 Units</td>
+            <td>SFR</td>
+            <td>Miami Dade</td>
+            <td>2010 - 2018</td>
+            <td>Completed</td>
+            <td>GP/ LP</td>
+
+
+
+        </tr>
+
+        <tr>
+
+
+
+            <td>Distressed Fund 3</td>
+
+            <td>46 Units</td>
+
+            <td>SFR</td>
+
+            <td>Miami Dade</td>
+
+            <td>2011 - 2016</td>
+            <td>Completed</td>
+            <td>GP/ LP</td>
+
+        </tr>
+
+        <tr>
+
+            <td>Distressed Fund 4</td>
+            <td>65 Units</td>
+            <td>SFR</td>
+            <td>Miami Dade</td>
+            <td>2012 - 2018</td>
+            <td>Completed</td>
+            <td>GP</td>
+
+
+        </tr>
+        <tr>
+
+            <td>Distressed Fund 5</td>
+            <td>78 Units</td>
+            <td>SFR</td>
+            <td>Miami Dade</td>
+            <td>2013 - 2018</td>
+            <td>Completed</td>
+            <td>GP</td>
+
+
+        </tr>
+        <tr>
+            <td>Distressed Fund 6</td>
+            <td>69 Units</td>
+            <td>SFR</td>
+            <td>Miami Dade</td>
+            <td>2104 - 2019</td>
+            <td>Completed</td>
+            <td>GP</td>
+
+
+        </tr>
+        <tr>
+
+
+                <td>Distressed Fund 7</td>
+                <td>83 Units</td>
+                <td>SFR</td>
+                <td>Miami Dade</td>
+                <td>2014 - 2019</td>
+                <td>Completed</td>
+                <td>GP</td>
+
+
+
+        </tr>
+        <tr>
+
+            <tr>
+                <td>The Reserve </td>
+                <td>360 Units</td>
+                <td>Multifamily</td>
+                <td>Jacksonville, Fl</td>
+                <td>2015 - 2019</td>
+                <td>Completed</td>
+                <td>GP/ GC</td>
+
+
+        </tr>
+        <tr>
+
+            <td>Crestwood</td>
+            <td>276 Units</td>
+            <td>Multifamily </td>
+            <td>Mesa, AZ</td>
+            <td>2015 - 2017</td>
+            <td>Completed</td>
+            <td>GP/ GC</td>
+
+
+        </tr>
+        <tr>
+
+            <td>North Lauderdale 46</td>
+            <td>46 Units</td>
+            <td>SFR</td>
+            <td>Miami Dade</td>
+            <td>2016 - 2020</td>
+            <td>Completed</td>
+            <td>GP</td>
+
+
+        </tr>
+        <tr>
+
+            <td>955 E 25 Street</td>
+            <td>216 Units</td>
+            <td>Multifamily</td>
+            <td>Hialeah, FL</td>
+            <td>2019 - 2021</td>
+            <td>Completed</td>
+            <td>GP</td>
+
+
+        </tr>
+        <tr>
+
+            <td>2323 NW 36 St</td>
+            <td>117 Units</td>
+            <td>Multifamily</td>
+            <td>Miami, FL</td>
+            <td>2019 - present</td>
+            <td>Under Construction</td>
+            <td>GP</td>
+
+
+
+        </tr>
+        <tr>
+            <td>Thrity Sixy One</td>
+            <td>99 Units</td>
+            <td>Multifamily </td>
+            <td>Miami, FL</td>
+            <td>2018 - present</td>
+            <td>Under Construction</td>
+            <td>GP</td>
+
+
+
+        </tr>
+        <tr>
+
+            <td>Jaranja 197</td>
+            <td>197 Units</td>
+            <td>Multifamily</td>
+            <td>Miami, FL</td>
+            <td>2021 - present</td>
+            <td>Under Construction</td>
+            <td>GP/LP</td>
+
+
+        </tr>
+        <tr>
+
+            <td>Missoni Baia</td>
+<td>248 Units</td>
+<td>Multifamily</td>
+<td>Miami, FL</td>
+<td>2018 - present</td>
+<td>Under Construction</td>
+<td>GC</td>
+
+
+        </tr>
+        <tr>
+
+            <td>Perrine</td>
+            <td>172 Units </td>
+            <td>Multifamily</td>
+            <td>Miami, FL</td>
+            <td>present</td>
+            <td>Under Contract</td>
+            <td>GP</td>
+
+        </tr>
+        <tr>
+
+            <td>FIU Student Housing</td>
+            <td>800 Beds</td>
+            <td>Multifamily</td>
+            <td>Miami, FL</td>
+            <td>present</td>
+            <td>Under Contract</td>
+            <td>GP</td>
+
+
+        </tr>
+        <tr>
+
+            <td>Little River</td>
+            <td>176 Units</td>
+            <td>Multifamily </td>
+            <td>Miami, FL</td>
+            <td>present</td>
+            <td>Under Contract</td>
+            <td>GP</td>
+
+        </tr>
+
+
+
+    </table>
+
+    </body>
+
+
+    </html>
+</body>
+</html>
